@@ -12,6 +12,19 @@ https://github.com/user-attachments/assets/demo-video.mp4
 
 **Can't see the video?** [View on YouTube](https://youtube.com/watch?v=demo) | [Download MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
 
+## 📊 Presentation Slides
+
+**[View the presentation →](./docs/PRESENTATION.md)** | **[Download PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)**
+
+Professional 7-slide deck explaining the project:
+- 🎬 Cover: Core value proposition
+- 💤 Concept: Sleep → Wake → Discover workflow
+- 🔥 Real case: nanochat optimization results
+- 📊 Metrics: 36× speed, $140/month savings
+- 🏗️ Architecture: Three-layer design
+- ⚖️ Comparison: Manual vs Automated
+- 🚀 Call to action: Get started now
+
 ### What You'll See
 
 ```

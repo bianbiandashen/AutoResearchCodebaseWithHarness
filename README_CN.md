@@ -12,6 +12,19 @@ https://github.com/user-attachments/assets/demo-video.mp4
 
 **看不到视频？** [在 Bilibili 观看](https://bilibili.com/video/demo) | [下载 MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
 
+## 📊 演示文稿
+
+**[查看演示文稿 →](./docs/PRESENTATION.md)** | **[下载 PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)**
+
+专业的 7 页幻灯片讲解项目：
+- 🎬 封面：核心价值主张
+- 💤 理念：睡觉 → 醒来 → 发现工作流
+- 🔥 真实案例：nanochat 优化结果
+- 📊 数据：36× 速度，每月节省 $140
+- 🏗️ 架构：三层设计
+- ⚖️ 对比：手动 vs 自动
+- 🚀 行动号召：立即开始
+
 ### 你将看到
 
 ```
