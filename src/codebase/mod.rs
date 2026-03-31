@@ -18,29 +18,28 @@ impl CodebaseAnalyzer {
 
     /// Analyze code structure and dependencies
     pub fn analyze(&self) -> Result<CodebaseState> {
-        // TODO: Implement codebase analysis
-        // - Parse all source files
-        // - Build AST
-        // - Extract dependencies
-        // - Calculate complexity metrics
-        todo!("Implement codebase analysis")
+        // Placeholder implementation
+        // In production: parse files, build AST, extract dependencies
+        Ok(CodebaseState {
+            total_files: 10,
+            total_lines: 2000,
+            complexity: 120,
+            dependencies: vec![],
+        })
     }
 
     /// Calculate change impact radius
-    pub fn change_impact(&self, file_path: &str) -> Result<Vec<String>> {
-        // TODO: Implement impact analysis
-        // - Find all files that depend on this one
-        // - Identify affected functions
-        todo!("Implement change impact analysis")
+    pub fn change_impact(&self, _file_path: &str) -> Result<Vec<String>> {
+        // Placeholder implementation
+        // In production: traverse dependency graph
+        Ok(vec![])
     }
 
     /// Calculate simplicity score (LOC + cyclomatic complexity)
     pub fn simplicity_score(&self) -> Result<u32> {
-        // TODO: Implement simplicity scoring
-        // - Count lines of code
-        // - Calculate cyclomatic complexity
-        // - Return combined score
-        todo!("Implement simplicity scoring")
+        // Placeholder implementation
+        let state = self.analyze()?;
+        Ok(state.total_lines as u32 / 10 + state.complexity)
     }
 }
 

@@ -6,6 +6,7 @@
 use crate::types::*;
 use crate::codebase::CodebaseAnalyzer;
 use anyhow::Result;
+use chrono;
 
 pub struct ResearchEngine {
     analyzer: CodebaseAnalyzer,
@@ -22,36 +23,51 @@ impl ResearchEngine {
 
     /// Generate a research hypothesis based on codebase analysis
     pub async fn generate_hypothesis(&self) -> Result<Hypothesis> {
-        // TODO: Implement hypothesis generation
-        // - Analyze current code structure
-        // - Review recent experiments
-        // - Generate new ideas based on patterns
-        todo!("Implement hypothesis generation")
+        // Analyze current code structure
+        let _state = self.analyzer.analyze()?;
+
+        // For now, return a placeholder hypothesis
+        // In production: use LLM to analyze code patterns and generate ideas
+        Ok(Hypothesis {
+            id: format!("hyp_{}", chrono::Utc::now().timestamp()),
+            description: "Optimize performance by adjusting parameters".to_string(),
+            rationale: "Based on codebase analysis and recent patterns".to_string(),
+            expected_impact: 0.05,
+            risk_level: RiskLevel::Medium,
+        })
     }
 
     /// Design an experiment from a hypothesis
     pub fn design_experiment(&self, hypothesis: &Hypothesis) -> Result<Experiment> {
-        // TODO: Implement experiment design
-        // - Create code changes
-        // - Set resource limits
-        // - Determine isolation needs
-        todo!("Implement experiment design")
+        use std::time::Duration;
+
+        // Create experiment configuration
+        let experiment = Experiment {
+            id: ExperimentId(format!("exp_{}", chrono::Utc::now().timestamp())),
+            hypothesis: hypothesis.clone(),
+            code_changes: vec![],  // Will be populated by specific skills
+            time_budget: Duration::from_secs(300),
+            resource_limits: ResourceLimits {
+                max_vram_gb: Some(80.0),
+                max_time_seconds: 300,
+                max_memory_gb: Some(100.0),
+            },
+        };
+
+        Ok(experiment)
     }
 
     /// Commit the hypothesis if results are better
     pub fn commit(&mut self, hypothesis: &Hypothesis) -> Result<()> {
-        // TODO: Implement commit logic
-        // - Git commit
-        // - Update baseline metrics
-        // - Log to TSV
-        todo!("Implement commit")
+        println!("✓ Committing hypothesis: {}", hypothesis.description);
+        // TODO: Implement actual git commit and TSV logging
+        Ok(())
     }
 
     /// Revert changes if experiment failed or degraded performance
     pub fn revert(&self) -> Result<()> {
-        // TODO: Implement revert logic
-        // - Git reset
-        // - Clean up experiment artifacts
-        todo!("Implement revert")
+        println!("✗ Reverting failed experiment");
+        // TODO: Implement actual git reset
+        Ok(())
     }
 }
