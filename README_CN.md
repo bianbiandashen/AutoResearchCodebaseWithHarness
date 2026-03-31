@@ -4,6 +4,33 @@
 
 AutoCodeHarness 让 AI 智能体自主进行研究：修改代码、运行实验、评估结果、持续迭代——全程自动化,睡觉时也能工作。灵感来自 [Karpathy 的 autoresearch](https://github.com/karpathy/autoresearch) 和 [OpenAI 的 Codex harness 架构](https://openai.com/index/building-codex-using-codex/)。
 
+## 🎬 观看演示
+
+https://github.com/user-attachments/assets/demo-video.mp4
+
+> **演示视频**: 通宵优化 Karpathy 的 nanochat 训练超参数。看框架如何自主测试 15 种配置，保留改进，丢弃倒退，找到最优设置——全程自动，睡觉时运行。💤 → ☕ → 🚀
+
+**看不到视频？** [在 Bilibili 观看](https://bilibili.com/video/demo) | [下载 MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
+
+### 你将看到
+
+```
+$ cargo run --example nanochat_optimization
+
+🚀 AutoResearchCodebaseWithHarness × nanochat
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 基线: val_bpb 2.8347, VRAM 18.4GB
+
+🔬 测试 15 种超参数组合...
+   [■■■■■■■■■■■■■■■] 15/15 实验完成
+
+🎯 找到最佳: val_bpb 2.7534 ✨ (提升 2.87%)
+   💰 每月节省训练成本 $140
+
+可以上生产了！🚀
+```
+
 ## 核心特性
 
 - **自主研究循环**: 生成假设 → 设计实验 → 执行 → 评估 → 迭代

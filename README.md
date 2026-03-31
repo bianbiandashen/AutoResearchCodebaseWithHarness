@@ -4,6 +4,33 @@
 
 AutoCodeHarness enables AI agents to autonomously conduct research by modifying code, running experiments, evaluating results, and iterating—all while you sleep. Inspired by [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) and [OpenAI's Codex harness architecture](https://openai.com/index/building-codex-using-codex/).
 
+## 🎬 Watch It In Action
+
+https://github.com/user-attachments/assets/demo-video.mp4
+
+> **Demo**: Optimizing Karpathy's nanochat training hyperparameters overnight. Watch as the framework autonomously tests 15 configurations, keeps improvements, discards regressions, and finds optimal settings—all while you sleep. 💤 → ☕ → 🚀
+
+**Can't see the video?** [View on YouTube](https://youtube.com/watch?v=demo) | [Download MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
+
+### What You'll See
+
+```
+$ cargo run --example nanochat_optimization
+
+🚀 AutoResearchCodebaseWithHarness × nanochat
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 Baseline: val_bpb 2.8347, VRAM 18.4GB
+
+🔬 Testing 15 hyperparameter combinations...
+   [■■■■■■■■■■■■■■■] 15/15 experiments
+
+🎯 Best Found: val_bpb 2.7534 ✨ (2.87% better)
+   💰 Saves $140/month in training costs
+
+Ready for production! 🚀
+```
+
 ## Key Features
 
 - **Autonomous Research Loop**: Generate hypotheses → design experiments → execute → evaluate → iterate
