@@ -6,11 +6,11 @@ AutoCodeHarness 让 AI 智能体自主进行研究：修改代码、运行实验
 
 ## 🎬 观看演示
 
-https://github.com/user-attachments/assets/demo-video.mp4
+<video src="https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/raw/main/docs/demo-presentation.mp4" controls width="100%"></video>
 
-> **演示视频**: 通宵优化 Karpathy 的 nanochat 训练超参数。看框架如何自主测试 15 种配置，保留改进，丢弃倒退，找到最优设置——全程自动，睡觉时运行。💤 → ☕ → 🚀
+> **演示视频**: 专业的 7 页演示文稿讲解项目：封面 → 理念 → 真实案例 → 数据指标 → 架构设计 → 对比分析 → 行动号召。每页展示 5 秒（总计 35 秒）。
 
-**看不到视频？** [在 Bilibili 观看](https://bilibili.com/video/demo) | [下载 MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
+**看不到视频？** [下载 MP4 (272KB)](./docs/demo-presentation.mp4) | [查看幻灯片 →](./docs/PRESENTATION.md) | [下载 PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)
 
 ## 📊 演示文稿
 

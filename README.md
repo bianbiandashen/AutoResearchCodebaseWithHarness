@@ -6,11 +6,11 @@ AutoCodeHarness enables AI agents to autonomously conduct research by modifying 
 
 ## 🎬 Watch It In Action
 
-https://github.com/user-attachments/assets/demo-video.mp4
+<video src="https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/raw/main/docs/demo-presentation.mp4" controls width="100%"></video>
 
-> **Demo**: Optimizing Karpathy's nanochat training hyperparameters overnight. Watch as the framework autonomously tests 15 configurations, keeps improvements, discards regressions, and finds optimal settings—all while you sleep. 💤 → ☕ → 🚀
+> **Demo**: Professional 7-slide presentation explaining the project: Cover → Concept → Real Case → Metrics → Architecture → Comparison → Call to Action. Each slide is displayed for 5 seconds (35 seconds total).
 
-**Can't see the video?** [View on YouTube](https://youtube.com/watch?v=demo) | [Download MP4](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo.mp4)
+**Can't see the video?** [Download MP4 (272KB)](./docs/demo-presentation.mp4) | [View slides →](./docs/PRESENTATION.md) | [Download PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)
 
 ## 📊 Presentation Slides
 
