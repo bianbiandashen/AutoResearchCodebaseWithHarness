@@ -45,6 +45,7 @@ pub mod research;
 pub mod harness;
 pub mod codebase;
 pub mod integration;
+pub mod tasks;
 
 pub use anyhow::{Result, Error};
 

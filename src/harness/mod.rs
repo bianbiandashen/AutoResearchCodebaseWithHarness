@@ -2,6 +2,9 @@
 //!
 //! Provides sandboxed execution, resource monitoring, and timeout enforcement.
 
+pub mod isolation;
+pub mod cache;
+
 use crate::types::*;
 use anyhow::Result;
 use std::time::Duration;
