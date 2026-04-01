@@ -6,11 +6,11 @@ AutoCodeHarness enables AI agents to autonomously conduct research by modifying 
 
 ## 🎬 Watch It In Action
 
-<video src="https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/raw/main/docs/demo-presentation.mp4" controls width="100%"></video>
+![Demo Presentation](./docs/demo-presentation.gif)
 
-> **Demo**: Professional 7-slide presentation explaining the project: Cover → Concept → Real Case → Metrics → Architecture → Comparison → Call to Action. Each slide is displayed for 5 seconds (35 seconds total).
+> **Demo**: Professional 7-slide presentation explaining the project: Cover → Concept → Real Case → Metrics → Architecture → Comparison → Call to Action. Each slide is displayed for 5 seconds (35 seconds total, auto-loops).
 
-**Can't see the video?** [Download MP4 (272KB)](./docs/demo-presentation.mp4) | [View slides →](./docs/PRESENTATION.md) | [Download PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)
+**Prefer other formats?** [Download MP4 (272KB)](https://github.com/bianbiandashen/AutoResearchCodebaseWithHarness/releases/download/v0.1.0/demo-presentation.mp4) | [View slides →](./docs/PRESENTATION.md) | [Download PPT (168KB)](./docs/AutoResearchCodebaseWithHarness-爆款介绍.pptx)
 
 ## 📊 Presentation Slides
 
